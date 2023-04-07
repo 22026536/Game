@@ -389,17 +389,17 @@ bool loadMedia()
 		gButtons[ 7 ].setPosition( (SCREEN_HEIGHT-BUTTON_HEIGHT*3)/2+BUTTON_HEIGHT, SCREEN_WIDTH-BUTTON_WIDTH );
 		gButtons[ 8 ].setPosition( SCREEN_HEIGHT-BUTTON_HEIGHT, SCREEN_WIDTH-BUTTON_WIDTH );
 	}
-	SDL_Surface *Draw = IMG_Load("TicTacToeGame/draw.png");
+	Draw = IMG_Load("TicTacToeGame/draw.png");
 	if(Draw==NULL){
 		printf( "Failed to load Draw texture!\n" );
 		success = false;
 	}
-	SDL_Surface *XWin = IMG_Load("TicTacToeGame/XWin.png");
+	XWin = IMG_Load("TicTacToeGame/XWin.png");
 	if(Draw==NULL){
 		printf( "Failed to load XWin texture!\n" );
 		success = false;
 	}
-	SDL_Surface *OWin = IMG_Load("TicTacToeGame/OWin.png");
+	OWin = IMG_Load("TicTacToeGame/OWin.png");
 	if(Draw==NULL){
 		printf( "Failed to load OWin texture!\n" );
 		success = false;
