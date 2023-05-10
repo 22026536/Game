@@ -43,11 +43,11 @@ Có thêm những vật phẩm đặc biệt
 Không
 
 # Tổng kết
-Em đã tự làm được một project của riêng mình.
-Cải thiện nhiều kĩ năng lập trình đã được học ở kì I cũng như học tập biết thêm nhiều kiến thức hơn.
-Khả năng tự học của em cũng tốt hơn.
-Biết thêm cách design ảnh cũng như photoshop.
-Biết cách sử dụng SDL2 với những thao tác cơ bản như(load ảnh, sự kiện chuột, render chữ lên màn hình bằng ttf,..).
+	Em đã tự làm được một project của riêng mình.
+	Cải thiện nhiều kĩ năng lập trình đã được học ở kì I cũng như học tập biết thêm nhiều kiến thức hơn.
+	Khả năng tự học của em cũng tốt hơn.
+	Biết thêm cách design ảnh cũng như photoshop.
+	Biết cách sử dụng SDL2 với những thao tác cơ bản như(load ảnh, sự kiện chuột, render chữ lên màn hình bằng ttf,..).
 
 # Credit
 	Special thanks to:
