@@ -151,143 +151,143 @@ bool loadMedia(){
     bool success=true;
 
     //load background
-    if( !backGround.loadFromFile( "FlyingCatGame/fileImageAndSound/nyancatbackground.jpg", gRenderer) )
+    if( !backGround.loadFromFile( "fileImageAndSound/nyancatbackground.jpg", gRenderer) )
 	{
 		printf( "Failed to load background texture!\n" );
 		success = false;
 	}
-	if( !FlyingCatStart.loadFromFile( "FlyingCatGame/fileImageAndSound/flyingcatstart.png", gRenderer ) )
+	if( !FlyingCatStart.loadFromFile( "fileImageAndSound/flyingcatstart.png", gRenderer ) )
 	{
 		printf( "Failed to render text texture!\n" );
 		success = false;
 	}
 
     //load cat
-    if( !cat[0].loadFromFile( "FlyingCatGame/fileImageAndSound/nyancat0.png", gRenderer ) )
+    if( !cat[0].loadFromFile( "fileImageAndSound/nyancat0.png", gRenderer ) )
 	{
 		printf( "Failed to load cat texture!\n" );
 		success = false;
 	}
-    if( !cat[1].loadFromFile( "FlyingCatGame/fileImageAndSound/nyancat1.png", gRenderer ) )
+    if( !cat[1].loadFromFile( "fileImageAndSound/nyancat1.png", gRenderer ) )
 	{
 		printf( "Failed to load cat texture!\n" );
 		success = false;
 	}
-    if( !cat[2].loadFromFile( "FlyingCatGame/fileImageAndSound/nyancat2.png", gRenderer ) )
+    if( !cat[2].loadFromFile( "fileImageAndSound/nyancat2.png", gRenderer ) )
 	{
 		printf( "Failed to load cat texture!\n" );
 		success = false;
 	}
 
     //load rainbow
-    if( !rainbow[0].loadFromFile( "FlyingCatGame/fileImageAndSound/rainbow0.png", gRenderer ) )
+    if( !rainbow[0].loadFromFile( "fileImageAndSound/rainbow0.png", gRenderer ) )
 	{
 		printf( "Failed to load rainbow texture!\n" );
 		success = false;
 	}
-    if( !rainbow[1].loadFromFile( "FlyingCatGame/fileImageAndSound/rainbow1.png", gRenderer ) )
+    if( !rainbow[1].loadFromFile( "fileImageAndSound/rainbow1.png", gRenderer ) )
 	{
 		printf( "Failed to load rainbow texture!\n" );
 		success = false;
 	}
 
     //load food
-    if( !catFood[strawberry].loadFromFile("FlyingCatGame/fileImageAndSound/strawberry.png", gRenderer)){
+    if( !catFood[strawberry].loadFromFile("fileImageAndSound/strawberry.png", gRenderer)){
         printf("Failed to load food texture!\n");
         success=false;
     }
-    if( !catFood[cupcake].loadFromFile("FlyingCatGame/fileImageAndSound/cupcake.png", gRenderer)){
+    if( !catFood[cupcake].loadFromFile("fileImageAndSound/cupcake.png", gRenderer)){
         printf("Failed to load food texture!\n");
         success=false;
     }
-    if( !catFood[cookie].loadFromFile("FlyingCatGame/fileImageAndSound/cookie.png", gRenderer)){
+    if( !catFood[cookie].loadFromFile("fileImageAndSound/cookie.png", gRenderer)){
         printf("Failed to load food texture!\n");
         success=false;
     }
-    if( !catFood[cake].loadFromFile("FlyingCatGame/fileImageAndSound/cake.png", gRenderer)){
+    if( !catFood[cake].loadFromFile("fileImageAndSound/cake.png", gRenderer)){
         printf("Failed to load food texture!\n");
         success=false;
     }
-    if( !catFood[peppermint].loadFromFile("FlyingCatGame/fileImageAndSound/peppermint.png", gRenderer)){
+    if( !catFood[peppermint].loadFromFile("fileImageAndSound/peppermint.png", gRenderer)){
         printf("Failed to load food texture!\n");
         success=false;
     }
-    if( !catFood[gumdrop].loadFromFile("FlyingCatGame/fileImageAndSound/gumdrop.png", gRenderer)){
+    if( !catFood[gumdrop].loadFromFile("fileImageAndSound/gumdrop.png", gRenderer)){
         printf("Failed to load food texture!\n");
         success=false;
     }
-    if( !catFood[bomb].loadFromFile("FlyingCatGame/fileImageAndSound/bomb.png", gRenderer)){
+    if( !catFood[bomb].loadFromFile("fileImageAndSound/bomb.png", gRenderer)){
         printf("Failed to load food texture!\n");
         success=false;
     }
-    if( !catFood[rocket].loadFromFile("FlyingCatGame/fileImageAndSound/rocket.png", gRenderer)){
+    if( !catFood[rocket].loadFromFile("fileImageAndSound/rocket.png", gRenderer)){
         printf("Failed to load food texture!\n");
         success=false;
     }
 
     //load Boom!
-    if( !BOOM.loadFromFile("FlyingCatGame/fileImageAndSound/boom!.png", gRenderer)){
+    if( !BOOM.loadFromFile("fileImageAndSound/boom!.png", gRenderer)){
         printf("Failed to load food texture!\n");
         success=false;
     }
 
     //load board and button
-    if( !endGameBoard.loadFromFile("FlyingCatGame/fileImageAndSound/endgameboard.png", gRenderer)){
+    if( !endGameBoard.loadFromFile("fileImageAndSound/endgameboard.png", gRenderer)){
         printf("Failed to load end game board texture!\n");
         success=false;
     }
-    if( !restartButton.loadFromFile("FlyingCatGame/fileImageAndSound/restartbutton.png", gRenderer)){
+    if( !restartButton.loadFromFile("fileImageAndSound/restartbutton.png", gRenderer)){
         printf("Failed to load restart button texture!\n");
         success=false;
     }
-    if( !menuButton.loadFromFile("FlyingCatGame/fileImageAndSound/menubutton.png", gRenderer)){
+    if( !menuButton.loadFromFile("fileImageAndSound/menubutton.png", gRenderer)){
         printf("Failed to load menu button texture!\n");
         success=false;
     }
-    if( !pauseButton.loadFromFile("FlyingCatGame/fileImageAndSound/pausebutton.png", gRenderer)){
+    if( !pauseButton.loadFromFile("fileImageAndSound/pausebutton.png", gRenderer)){
         printf("Failed to load pause button texture!\n");
         success=false;
     }
-    if( !pauseBoard.loadFromFile("FlyingCatGame/fileImageAndSound/pauseboard.png", gRenderer)){
+    if( !pauseBoard.loadFromFile("fileImageAndSound/pauseboard.png", gRenderer)){
         printf("Failed to load pause board texture!\n");
         success=false;
     }
-    if( !continuePlayButton.loadFromFile("FlyingCatGame/fileImageAndSound/continueplaybutton.png", gRenderer)){
+    if( !continuePlayButton.loadFromFile("fileImageAndSound/continueplaybutton.png", gRenderer)){
         printf("Failed to load continue play button texture!\n");
         success=false;
     }
-    if( !StartButton.loadFromFile( "FlyingCatGame/fileImageAndSound/startbutton.png", gRenderer ) )
+    if( !StartButton.loadFromFile( "fileImageAndSound/startbutton.png", gRenderer ) )
 	{
 		printf( "Failed to render text texture!\n" );
 		success = false;
 	}
 
     //load music
-    claim=Mix_LoadWAV("FlyingCatGame/fileImageAndSound/claim.wav");
+    claim=Mix_LoadWAV("fileImageAndSound/claim.wav");
     if( claim == NULL )
 	{
 		printf( "Failed to load claim sound effect! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
 	}
-    boomSound=Mix_LoadWAV("FlyingCatGame/fileImageAndSound/boomsound.wav");
+    boomSound=Mix_LoadWAV("fileImageAndSound/boomsound.wav");
     if( boomSound == NULL )
 	{
 		printf( "Failed to load boom sound effect! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
 	}
-    startMusic=Mix_LoadMUS("FlyingCatGame/fileImageAndSound/startmusic.wav");
+    startMusic=Mix_LoadMUS("fileImageAndSound/startmusic.wav");
     if(startMusic==NULL){
         printf( "Failed to load start sound effect! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
     }
-    ingameMusic=Mix_LoadMUS("FlyingCatGame/fileImageAndSound/ingamemusic.wav");
+    ingameMusic=Mix_LoadMUS("fileImageAndSound/ingamemusic.wav");
     if(ingameMusic==NULL){
         printf( "Failed to load ingame sound effect! SDL_mixer Error: %s\n", Mix_GetError() );
 		success = false;
     }
 
     //load font
-    gFont=TTF_OpenFont("FlyingCatGame/fileImageAndSound/font.ttf",40);
+    gFont=TTF_OpenFont("fileImageAndSound/font.ttf",40);
 
     //Render text
 	SDL_Color textColor = {255,0,0};
