@@ -50,9 +50,9 @@ Biết thêm cách design ảnh cũng như photoshop.
 Biết cách sử dụng SDL2 với những thao tác cơ bản như(load ảnh, sự kiện chuột, render chữ lên màn hình bằng ttf,..).
 
 # Credit
-Special thanks to:
-Thầy Trần Quốc Long
-Thầy Nguyễn Lê Đức Trọng
-Thầy Tạ Việt Cường
-Thầy Đỗ Minh Khá
-Vì đã giúp em hoàn thành bài tập này.
+	Special thanks to:
+	Thầy Trần Quốc Long
+	Thầy Nguyễn Lê Đức Trọng
+	Thầy Tạ Việt Cường
+	Thầy Đỗ Minh Khá
+	Vì đã giúp em hoàn thành bài tập này.
