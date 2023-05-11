@@ -9,7 +9,8 @@
 	Game được viết bằng ngôn ngữ C++ và sử dụng thư viện SDL2.
 
 # Luật chơi:
-	Con Mèo sẽ di chuyển về phía trước, người chơi cần ăn đồ ăn để lấy điểm, đồng thời tránh những quả bom và tên lửa.
+	Con Mèo sẽ di chuyển về phía trước, người chơi dùng nút mũi tên lên xuống để di chuyển.
+	Người chơi cần ăn đồ ăn để lấy điểm, đồng thời tránh những quả bom và tên lửa.
 	Khi game kết thúc sẽ tính điểm và so sánh với điểm cao nhất đã đạt được
 
 # Các chức năng chính:
