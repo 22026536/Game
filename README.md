@@ -30,7 +30,7 @@
 # Hướng dẫn cài đặt
 	Cài đặt visual studio code
 	Tải các thư viện hỗ trợ SDL: SDL2, SDL2_mixer, SDL2_image, SDL2_ttf.
-	Tải project về máy
+	Tải project về máy dưới dạng .rar
 	Mở file flyingcat.exe trong thư mục game và bắt đầu
 
 # Hướng phát triển
