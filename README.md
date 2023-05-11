@@ -1,6 +1,5 @@
 # Game FLYING CAT
 	Trương Đức Quang: 22026536.
-	K67-CN16-UET.
 	Bài Tập: INT2215 - Lập Trình Nâng Cao.
 
 # Giới thiệu chung
@@ -45,15 +44,9 @@
 
 # Tổng kết
 	Em đã tự làm được một project của riêng mình.
-	Cải thiện nhiều kĩ năng lập trình đã được học ở kì I cũng như học tập biết thêm nhiều kiến thức hơn.
-	Khả năng tự học của em cũng tốt hơn.
-	Biết thêm cách design ảnh cũng như photoshop.
-	Biết cách sử dụng SDL2 với những thao tác cơ bản như(load ảnh, sự kiện chuột, render chữ lên màn hình bằng ttf,..).
-
+	Em đã cải thiện được nhiều kĩ năng, như lâp trình đã học ở kì 1, các kĩ năng chỉnh ảnh, photoshop, biết cách sử dụng SDL2 với những thao tác cơ bản như(load ảnh, sự kiện chuột, render chữ lên màn hình bằng ttf,..).
+	
 # Credit
-	Special thanks to:
-	Thầy Trần Quốc Long
-	Thầy Nguyễn Lê Đức Trọng
-	Thầy Tạ Việt Cường
-	Thầy Đỗ Minh Khá
-	Vì đã giúp em hoàn thành bài tập này.
+	Cảm ơn tất cả các thầy đã hướng dẫn em trong suốt khóa học
+
+
